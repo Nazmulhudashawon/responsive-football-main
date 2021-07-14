@@ -1,4 +1,4 @@
-
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -54,12 +54,14 @@ padding-left: 20px;
 main{
     display: flex;
     justify-content: center;
+    
 }
 .container{
     background-color: white;
     height: 1500px;
-width: 1050px;
-padding: 30px;
+    width: 1050px;
+    padding: 30px;
+
 }
 
 /* top players style */
@@ -67,12 +69,14 @@ padding: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:28px;
-    margin: 70px 0 165px 0 ;      
+    margin: 70px 0 165px 0 ; 
+    
+        
 }
 .player{
     border: 5px solid white ;
     align-items: center;
-
+   
 }
 .player img{
     width: 300px;
@@ -130,4 +134,36 @@ footer p{
 text-align: center;
 font-size: 18px;
 margin-bottom: 0;
+}
+/* media-query */
+
+/* mobile-devices */
+
+@media only screen and (max-width: 689px) {
+
+    .container{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .players {
+      
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+   
+  }
+  /* tablet-devices */
+  @media only screen and (min-width:689px)and (max-width: 792px) {
+
+    .container{
+        width: 100%; 
+        height: 100%;     
+    }
+    .players {  
+      grid-template-columns: repeat(2, 1fr);
+    }
+   
 }
