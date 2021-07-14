@@ -3,10 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 header{
-    width: 1440px;
+    width: 1340px;
     height: 667px;
     background-color:rgba(45, 37, 160, 1);
     display: flex;
+}
+header:hover{
+    background-color: teal;
 }
 body{
    
@@ -81,25 +84,50 @@ padding: 30px;
 }
 p{
     height: 104px;
-width: 300px;
-text-align: justify;
-font-family: 'Poppins', sans-serif;
-font-size: 12px;
+    width: 300px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 
 }
+.ranking{
+    margin: 50px 100px ;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(21, 187, 173, 0.486);
+    border-radius: 10px;
+    padding: 20px;
+    width: 1100px;
+    height: 300px;
+    
+}
+.ranking h2 {
+    margin: 40px 40px 10px 50px;
+}
+table{
+    margin-left: 100px;
+}
+td {
+    padding:10px 50px ;
+    text-align: center;
+   
+}
+
 footer{
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- margin-top: px;
+ margin-top: 100px;
+
       
 }
 footer img{
     height: 110px;
-width: 483;
+    width: 483;
 }
 footer p{
 text-align: center;
 font-size: 18px;
+margin-bottom: 0;
 }
