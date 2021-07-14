@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+header{
+    width: 1440px;
+    height: 667px;
+    background-color:rgba(45, 37, 160, 1);
+    display: flex;
+}
+body{
+    background-color: #F3F5F9;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 230px;
+width: 485px;
+font-size: 64px;
+padding: 153px 0 0 156px;
+
+
+}
+.banner h3{
+    background-color: rgba(224, 44, 109, 1);
+width: 168px;
+margin-left: 156px;
+margin-top: 60px;
+
+padding: 10px 24px 10px 24px;
+
+    
+}
+.banner{
+    width: 50%;
+
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+  padding-top: 153px;
+
+   
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    height: 679px;
+width: 1050px;
+padding: 30px;
+border-radius: 5px;
+
+}
+
+
+/* top players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:28px;
+    
+   
+}
+.player{
+    border: 5px solid white ;
+    align-items: center;
+border: 5px solid rgb(246, 246, 246);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    
+    font-size: 18px;
+}
+p{
+    height: 104px;
+width: 300px;
+text-align: justify;
+
+
+}
